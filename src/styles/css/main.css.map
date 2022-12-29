@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/base/_typography.scss","../sass/base/_reset.scss","../sass/base/_body.scss","../sass/abstract/_colors.scss"],"names":[],"mappings":"AAAQ;ACAR;AAAA;AAAA;EAGI;;;AAGJ;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;AAAA;AAAA;AAAA;EAII;EACA;;;ACnBJ;EACI;EACA;EACA;EACA;EACA,kBCPQ;;;AHEZ;AAAA;AAAA;EAGI;;;AAKI;EACI;;AAKJ;EACI","file":"main.css"}

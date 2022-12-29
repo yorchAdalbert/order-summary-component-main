@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+h3,
+p,
+a {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.order__summary {
+    .order__content {
+        h3 {
+            font-weight: 900;
+        }
+    }
+
+    .order__price {
+        .period {
+            font-weight: 700;
+        }
+    }
+}
