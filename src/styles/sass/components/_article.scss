@@ -1,0 +1,38 @@
+@use '../abstract/colors' as *;
+
+.order__summary {
+    max-width: 28rem;
+    margin: 2em;
+    border-radius: 1em;
+    background-color: white;
+
+    img {
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .container {
+        margin: 1.5em;
+    }
+
+    .order__plan {
+        display: grid;
+        grid-template-columns: 3rem 7rem 1fr;
+        background-color: $very-pale-blue;
+        margin-bottom: 1.4em;
+        border-radius: 1em;
+        padding: 1em;
+
+        .order__price {
+            padding-top: .2em;
+            line-height: 1.5;
+        }
+
+        .order__change {
+            color: $bright-blue;
+            text-decoration: underline;
+            text-align: right;
+            padding-top: 1em;
+        }
+    }
+}

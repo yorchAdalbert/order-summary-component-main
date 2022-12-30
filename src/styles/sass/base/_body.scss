@@ -1,0 +1,10 @@
+@use '../abstract/colors' as *;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../img/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+}
