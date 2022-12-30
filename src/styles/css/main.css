@@ -1,6 +1,4 @@
-/*# sourceMappingURL=main.css.map */
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
-
 *,
 *::before,
 *::after {
@@ -33,6 +31,7 @@ body {
   min-height: 100vh;
   background: url("../../img/pattern-background-desktop.svg");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 h3,
@@ -56,14 +55,12 @@ a {
   padding-bottom: 1em;
   color: hsl(223deg, 47%, 23%);
 }
-
 .order__summary .order__content p {
   width: 18.787rem;
   margin: auto;
   line-height: 1.5;
   padding-bottom: 1.5em;
 }
-
 .order__summary .order__price .period {
   font-weight: 700;
   color: hsl(223deg, 47%, 23%);
@@ -75,16 +72,13 @@ a {
   border-radius: 1em;
   background-color: white;
 }
-
 .order__summary img {
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
 }
-
 .order__summary .container {
   margin: 1.5em;
 }
-
 .order__summary .order__plan {
   display: grid;
   grid-template-columns: 3rem 7rem 1fr;
@@ -93,12 +87,10 @@ a {
   border-radius: 1em;
   padding: 1em;
 }
-
 .order__summary .order__plan .order__price {
   padding-top: 0.2em;
   line-height: 1.5;
 }
-
 .order__summary .order__plan .order__change {
   color: hsl(245deg, 75%, 52%);
   text-decoration: underline;
@@ -115,7 +107,6 @@ a {
   margin-bottom: 1em;
   box-shadow: 0 5px 15px hsl(224deg, 23%, 55%);
 }
-
 .order__summary .order__cancel {
   background-color: white;
   color: hsl(224deg, 23%, 55%);
