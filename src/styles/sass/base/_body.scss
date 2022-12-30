@@ -5,5 +5,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: $pale-blue;
+    background: url('../../img/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
 }

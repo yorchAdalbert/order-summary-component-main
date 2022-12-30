@@ -1,0 +1,19 @@
+@use '../abstract/colors' as *;
+
+.order__summary {
+    .order__button {
+        display: block;
+        background-color: $bright-blue;
+        border-radius: 1em;
+        color: white;
+        padding: 1em;
+        margin-bottom: 1em;
+        box-shadow: 0 5px 15px $desaturated-blue;
+    }
+
+    .order__cancel {
+        background-color: white;
+        color: $desaturated-blue;
+        box-shadow: none;
+    }
+}

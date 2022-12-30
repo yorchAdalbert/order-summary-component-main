@@ -13,6 +13,7 @@
 
 html {
   color-scheme: dark light;
+  background-color: hsl(225deg, 100%, 94%);
 }
 
 img,
@@ -28,20 +29,87 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: hsl(225deg, 100%, 94%);
+  background: url("../../img/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
 }
 
 h3,
 p,
 a {
   font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  color: hsl(224deg, 23%, 55%);
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .order__summary .order__content h3 {
+  font-size: 1.4rem;
   font-weight: 900;
+  padding-bottom: 1em;
+  color: hsl(223deg, 47%, 23%);
+}
+.order__summary .order__content p {
+  width: 18.787rem;
+  margin: auto;
+  line-height: 1.5;
+  padding-bottom: 1.5em;
 }
 .order__summary .order__price .period {
   font-weight: 700;
+  color: hsl(223deg, 47%, 23%);
+}
+
+.order__summary {
+  max-width: 28rem;
+  margin: 2em;
+  border-radius: 1em;
+  background-color: white;
+}
+.order__summary img {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+.order__summary .container {
+  margin: 1.5em;
+}
+.order__summary .order__plan {
+  display: grid;
+  grid-template-columns: 3rem 7rem 1fr;
+  background-color: hsl(225deg, 100%, 98%);
+  margin-bottom: 1.4em;
+  border-radius: 1em;
+  padding: 1em;
+}
+.order__summary .order__plan .order__price {
+  padding-top: 0.2em;
+  line-height: 1.5;
+}
+.order__summary .order__plan .order__change {
+  color: hsl(245deg, 75%, 52%);
+  text-decoration: underline;
+  text-align: right;
+  padding-top: 1em;
+}
+
+.order__summary .order__button {
+  display: block;
+  background-color: hsl(245deg, 75%, 52%);
+  border-radius: 1em;
+  color: white;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 0 5px 15px hsl(224deg, 23%, 55%);
+}
+.order__summary .order__cancel {
+  background-color: white;
+  color: hsl(224deg, 23%, 55%);
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=main.css.map */
