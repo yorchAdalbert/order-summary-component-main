@@ -1,0 +1,9 @@
+@use 'colors' as *;
+
+%btn__normal {
+    display: block;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 5px 10px $desaturated-blue;
+}

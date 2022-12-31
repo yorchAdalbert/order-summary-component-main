@@ -97,20 +97,32 @@ a {
   text-align: right;
   padding-top: 1em;
 }
+.order__summary .order__plan .order__change:hover {
+  text-decoration: none;
+}
 
-.order__summary .order__button {
+.order__summary .btn__payment, .order__summary .btn__cancel {
   display: block;
-  background-color: hsl(245deg, 75%, 52%);
   border-radius: 1em;
-  color: white;
   padding: 1em;
   margin-bottom: 1em;
-  box-shadow: 0 5px 15px hsl(224deg, 23%, 55%);
+  box-shadow: 0 5px 10px hsl(224deg, 23%, 55%);
 }
-.order__summary .order__cancel {
-  background-color: white;
-  color: hsl(224deg, 23%, 55%);
+
+.order__summary .btn__payment {
+  background-color: hsl(245deg, 75%, 52%);
+  color: white;
+}
+.order__summary .btn__payment:hover {
   box-shadow: none;
+  opacity: 0.8;
+}
+.order__summary .btn__cancel {
+  box-shadow: none;
+}
+.order__summary .btn__cancel:hover {
+  color: hsl(245deg, 75%, 52%);
+  border: 2px solid hsl(245deg, 75%, 52%);
 }
 
 /*# sourceMappingURL=main.css.map */

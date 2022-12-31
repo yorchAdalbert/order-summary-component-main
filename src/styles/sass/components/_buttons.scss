@@ -1,19 +1,24 @@
-@use '../abstract/colors' as *;
+@use '../abstract' as *;
 
 .order__summary {
-    .order__button {
-        display: block;
+    .btn__payment {
+        @extend %btn__normal;
         background-color: $bright-blue;
-        border-radius: 1em;
         color: white;
-        padding: 1em;
-        margin-bottom: 1em;
-        box-shadow: 0 5px 15px $desaturated-blue;
+
+        &:hover {
+            box-shadow: none;
+            opacity: .8;
+        }
     }
 
-    .order__cancel {
-        background-color: white;
-        color: $desaturated-blue;
+    .btn__cancel {
+        @extend %btn__normal;
         box-shadow: none;
+
+        &:hover {
+            color: $bright-blue;
+            border: 2px solid $bright-blue;
+        }
     }
 }
